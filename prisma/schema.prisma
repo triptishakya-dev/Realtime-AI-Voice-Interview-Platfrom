@@ -24,3 +24,21 @@ model User {
   updatedAt DateTime @default(now())
 
 }
+
+
+model Interview {
+   id String @id @default(uuid())
+   role String
+   level String
+   teckSteck String[]
+  type String
+   amount Int
+   question Json
+   createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+
+
+user User  @relation(fields: [userId], references:[id])
+userId String
+
+}
