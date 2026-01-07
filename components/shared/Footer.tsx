@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className="mt-auto">
-      <div className="flex flex-col gap-6 blue-gradient-dark rounded-3xl p-8 w-full max-w-[1200px] mx-auto">
+      <div className="flex flex-col gap-6 blue-gradient-dark rounded-3xl p-8 w-full">
         {/* Top Section - Logo and Links */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           {/* Logo and Tagline */}
