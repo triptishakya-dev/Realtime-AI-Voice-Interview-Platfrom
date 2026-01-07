@@ -252,7 +252,7 @@ Keep responses **short, friendly, and conversational**.
               className="rounded-full object-cover relative z-10"
             />
             <span className=" " />
-            <h3 className="mt-2 z-10">Nikhil</h3>
+            <h3 className="mt-2 z-10">Tripti</h3>
           </div>
         </div>
       </div>
