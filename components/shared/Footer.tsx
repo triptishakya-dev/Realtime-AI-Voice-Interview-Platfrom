@@ -7,7 +7,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="mt-auto  pb-4">
+    <footer className="mt-auto pb-4">
       <div className="flex flex-col gap-10 blue-gradient-dark rounded-3xl p-10 w-full border border-white/5 shadow-2xl relative overflow-hidden">
         {/* Ambient Glow */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary-200/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
