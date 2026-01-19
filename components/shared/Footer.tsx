@@ -72,7 +72,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 relative z-10">
-          <p className="text-light-100/40 text-xs">
+          <p className="text-light-100/40 text-xs" suppressHydrationWarning>
             © {currentYear} Prepwise. All rights reserved.
           </p>
           
