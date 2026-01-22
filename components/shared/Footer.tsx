@@ -85,14 +85,14 @@ const Footer = () => {
               Twitter
             </Link>
             <Link 
-              href="#" 
+              href="https://www.linkedin.com/in/tripti-shakya-602097281/" 
               target="_blank"
               className="text-light-100/40 hover:text-white transition-colors text-xs"
             >
               LinkedIn
             </Link>
             <Link 
-              href="#" 
+              href="https://github.com/triptishakya-dev" 
               target="_blank"
               className="text-light-100/40 hover:text-white transition-colors text-xs"
             >
